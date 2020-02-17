@@ -12,7 +12,7 @@ namespace Lab3Depart
         {
             Fruit fruit = obj as Fruit;
             return fruit != null &&
-                   Nom == fruit.Nom;
+                   Nom == fruit.Nom; 
         }
 
         public override int GetHashCode()
